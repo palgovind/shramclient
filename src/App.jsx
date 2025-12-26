@@ -14,6 +14,7 @@ function App() {
   return (
     <> 
 	<Header/>
+	
 	  <h1>Hello</h1>
 	<h1>React After Vite+{title} </h1>
       </>
