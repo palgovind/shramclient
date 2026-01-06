@@ -1,6 +1,6 @@
 
 
-const Dashboard = ()=>{
+const Dashboard =()=>{
 return (
 
 <div>Dashboard Components</div>

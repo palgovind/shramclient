@@ -10,7 +10,7 @@ const Header =() =>{
 		   
 		    <Navbar bg="primary" variant="dark">
 		   <Container>
-		   <Navbar.Brand to="/"><strong>Work Service Management System</strong></Navbar.Brand>
+		   <Navbar.Brand to="/"><strong>श्रम सेवा ब्यबस्थापन प्रणाली <br/>Work Service Management System</strong></Navbar.Brand>
 
 <Nav className="ml-auto">
 		   <Nav.Link as={Link} to ="/" className="nav-link">Workers</Nav.Link>
