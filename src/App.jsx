@@ -1,4 +1,5 @@
 import {Route,Routes} from 'react-router-dom';
+import WorkerList from "./components/WorkerList";
 import { useState,useEffect } from 'react';
 import './App.css';
 import Header from "./pages/header/Header";
@@ -19,12 +20,14 @@ function App() {
     <> 
 	<Header/>
 	<Routes>
+	<Route path="/workers" element={<WorkerList/>}/>
+	<Route path="/postworker" element={<PostWorker/>}/>
 	<Route path='/'element={<Dashboard/>}/>
-	<Route path='/workers'element={<PostWorker/>}/>
+	
 	</Routes>
-
-
-	<h1>React After Vite+{title} </h1>
+     
+  <h1>React After Vite+{title} </h1>
+	
       </>
   )
 }

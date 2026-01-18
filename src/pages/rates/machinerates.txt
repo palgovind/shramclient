@@ -1,0 +1,7 @@
+1. Wheel Excavator Without Breaker 20.6 Ton   2120 per hour	14840 per shift
+   Wheel Excavator With    Breaker 20.6 Ton   2500 per hour	17500 per shift
+2.Backhoe Loader    JCB 3DX Super  92 h.p.    1050 per hour	7350  per shift
+3.Kawasaki Wheel Loader		   2.2 cu m   1500		10500
+4.Water Tanker				      550		3850
+5.Roller				      1200		8400
+6.

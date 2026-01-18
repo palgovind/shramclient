@@ -1,4 +1,9 @@
 /*style the navbar bkgnd and brand*/
+.logo {
+  max-width:100px;
+  height: auto;
+}
+
 .navbar { background-color: #343a40;}
 .navbar .navbar-brand{ color: #fff;}
 /*style the navigation links*/

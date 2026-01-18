@@ -11,7 +11,7 @@ const PostWorker=()=>{
 															name:"",
 															email:"",
 															phone:"",
-															worktype:""
+															department:""
 	
 															});
 					   const handleInputChange=(event)=>{
@@ -42,7 +42,7 @@ const PostWorker=()=>{
 											const data=await response.json();
 											
 											console.log("worker created:",data);
-											navigate("/index");  // Navigates to '/path'
+											navigate("/workers");  // Navigates to '/path'
 												
 											}
 											catch(error){
@@ -67,7 +67,7 @@ const PostWorker=()=>{
 												    onChange={handleInputChange}/>
 										    </Form.Group>
 											 <Form.Group controlId="formBasicName">
-											      <Form.Control type="text" name="worktype" placeholder="तपाइको काम लेख्नुहोस् Enter your worktype" value={formData.worktype}
+											      <Form.Control type="text" name="department" placeholder="तपाइको काम लेख्नुहोस् Enter your worktype" value={formData.worktype}
 												    onChange={handleInputChange}/>
 										       
 								           
